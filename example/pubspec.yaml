@@ -2,7 +2,7 @@ name: example_flutter
 description: An example project for flutter-desktop-embedding.
 
 environment:
-  sdk: '>=2.0.0 <3.0.0'
+  sdk: '>=2.2.2 <3.0.0'
   # The example interacts with build scripts on the Flutter side that are not
   # yet stable, so it requires a very recent version of Flutter.
   # This version will increase regularly as the build scripts change.
@@ -37,3 +37,11 @@ flutter:
           weight: 700
         - asset: fonts/Roboto/Roboto-Black.ttf
           weight: 900
+  assets:
+    - assets/computer.jpg
+    - assets/piano-demo.gif
+    - assets/ff_16.gif
+    - assets/implementation_2.gif
+    - assets/ripple_final.gif
+    - assets/tickets.gif
+    - assets/
